@@ -1,46 +1,49 @@
 {
-  "folioReferencia" : "42667C002",
-  "folioEvento" : "92218",
-  "tipoMensaje" : "Replace",
-  "claveCotizacion" : "ADP",
-  "razonSocial" : "AEROPORTS DE PARIS",
-  "serie" : "N",
-  "isin" : "FR0010340141",
-  "mercadoPrincipal" : "EURONEXT PARIS",
-  "tipoEvento" : "CashDividend",
-  "indicador" : "Mandatory",
-  "completo" : "COMPLETE",
-  "confirmado" : "CONFIRMED",
-  "fechaExdate" : "07\/06\/2019",
-  "fechaRegistro" : "10\/06\/2019",
-  "tipoEventos" : [ {
-    "qualifierDescription" : "Occurrence Type",
-    "indicatorDescription" : "FINAL"
-  } ],
-  "opciones" : [ {
-    "numero" : 1,
-    "tipo" : "Cash",
-    "default" : "true",
-    "transacciones" : [ {
-      "transaccion" : "Cash Movement",
-      "fechaPago" : "11\/06\/2019",
-      "creditoDebito" : "Credit",
-      "importeBruto" : {
-        "amount" : 3.0,
-        "currency" : "EUR",
-        "rateType" : "TaxablePortion"
-      },
-      "importeNeto" : {
-        "amount" : 2.1,
-        "currency" : "EUR",
-        "rateType" : "TaxablePortion"
-      },
-      "retencion" : {
-        "percent" : "30.0"
-      }
-    } ]
-  } ],
-  "notas" : {
-    "addtlTxt" : ""
-  }
+  "Personaje": [
+    {
+      "Nombre": "Leia Organa",
+      "Estatura": "1,56 m",
+      "Año de nacimiento": "1956"
+    },
+    {
+      "Nombre": "Han Solo",
+      "Estatura": "1.85 m",
+      "Año de nacimiento": "1942"
+    },
+    {
+      "Nombre": "Luke Skywalker",
+      "Estatura": "1.75 m",
+      "Año de nacimiento": "1951"
+    },
+    {
+      "Nombre": "Chewbacca",
+      "Estatura": "2.18 m",
+      "Año de nacimiento": "1944"
+    },
+    {
+      "Nombre": "R2-D2",
+      "Estatura": "1.12 m",
+      "Año de nacimiento": "1934"
+    },
+    {
+      "Nombre": "C-3PO",
+      "Estatura": "1.75 m",
+      "Año de nacimiento": "1946"
+    },
+    {
+      "Nombre": "Obi-Wan Kenobi",
+      "Estatura": "1.78 m",
+      "Año de nacimiento": "1914"
+    },
+    {
+      "Nombre": "Boba Fett",
+      "Estatura": "1.71",
+      "Año de nacimiento": "1960"
+    },
+    {
+      "Nombre": "Darth Vader",
+      "Estatura": "1.87",
+      "Año de nacimiento": "1931"
+    }
+  ]
 }
