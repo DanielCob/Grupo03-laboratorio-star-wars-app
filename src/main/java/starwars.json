@@ -1,3 +1,46 @@
 {
-
+  "folioReferencia" : "42667C002",
+  "folioEvento" : "92218",
+  "tipoMensaje" : "Replace",
+  "claveCotizacion" : "ADP",
+  "razonSocial" : "AEROPORTS DE PARIS",
+  "serie" : "N",
+  "isin" : "FR0010340141",
+  "mercadoPrincipal" : "EURONEXT PARIS",
+  "tipoEvento" : "CashDividend",
+  "indicador" : "Mandatory",
+  "completo" : "COMPLETE",
+  "confirmado" : "CONFIRMED",
+  "fechaExdate" : "07\/06\/2019",
+  "fechaRegistro" : "10\/06\/2019",
+  "tipoEventos" : [ {
+    "qualifierDescription" : "Occurrence Type",
+    "indicatorDescription" : "FINAL"
+  } ],
+  "opciones" : [ {
+    "numero" : 1,
+    "tipo" : "Cash",
+    "default" : "true",
+    "transacciones" : [ {
+      "transaccion" : "Cash Movement",
+      "fechaPago" : "11\/06\/2019",
+      "creditoDebito" : "Credit",
+      "importeBruto" : {
+        "amount" : 3.0,
+        "currency" : "EUR",
+        "rateType" : "TaxablePortion"
+      },
+      "importeNeto" : {
+        "amount" : 2.1,
+        "currency" : "EUR",
+        "rateType" : "TaxablePortion"
+      },
+      "retencion" : {
+        "percent" : "30.0"
+      }
+    } ]
+  } ],
+  "notas" : {
+    "addtlTxt" : ""
+  }
 }
