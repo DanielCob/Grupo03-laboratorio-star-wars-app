@@ -54,7 +54,7 @@ public class Ventana {
             }
             logger.info("personajes_array se generó correctamente");
         } catch (Exception e) {
-            logger.info(String.valueOf(e));
+            logger.error(String.valueOf(e), e);
         }
     }
 }
