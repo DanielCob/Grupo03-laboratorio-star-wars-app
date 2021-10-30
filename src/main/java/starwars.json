@@ -1,5 +1,4 @@
-{
-  "Personaje": [
+[
     {
       "Nombre": "Leia Organa",
       "Estatura": "1,56 m",
@@ -37,13 +36,12 @@
     },
     {
       "Nombre": "Boba Fett",
-      "Estatura": "1.71",
+      "Estatura": "1.71 m",
       "Año de nacimiento": "1960"
     },
     {
       "Nombre": "Darth Vader",
-      "Estatura": "1.87",
+      "Estatura": "1.87 m",
       "Año de nacimiento": "1931"
     }
-  ]
-}
+]
