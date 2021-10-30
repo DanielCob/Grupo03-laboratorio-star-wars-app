@@ -1,11 +1,15 @@
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import ch.qos.logback.classic.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.swing.*;
 import java.io.FileReader;
 
 public class Ventana {
+
+    private static final Logger logger = (Logger) LoggerFactory.getLogger(Ventana.class);
 
     public static Object[][] personajes_array = new Object[9][3];
 
@@ -18,23 +22,23 @@ public class Ventana {
         frame.getContentPane().add(scrollPane);
         frame.pack();
         frame.setVisible(true);
+        logger.info("{} ha sido cargada", Ventana.class.getSimpleName());
     }
 
     public static JTable createTable()
     {
         getJSON();
         String[] columnNames = {"Nombre", "Estatura", "Año de nacimiento"};
-        Object[][] data = {{"Kathy", "Smith"},{"John", "Doe"}};
         JTable table = new JTable(personajes_array, columnNames);
         table.setFillsViewportHeight(true);
-
+        logger.info("JTable ha sigo generada");
         return table;
     }
     public static void getJSON(){
         JSONParser parser = new JSONParser();
         try {
             Object obj = parser.parse(new FileReader("src/main/java/starwars.json"));
-
+            logger.info("JSON ha sido leido correctamente");
             JSONArray json = (JSONArray) obj;
 
             for (int i = 0; i < json.size(); i++) {
@@ -48,8 +52,9 @@ public class Ventana {
                 subarray[2] = edad;
                 personajes_array[i] = subarray;
             }
+            logger.info("personajes_array se generó correctamente");
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.info(String.valueOf(e));
         }
     }
 }
