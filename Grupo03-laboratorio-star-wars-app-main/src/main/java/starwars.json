@@ -1,0 +1,49 @@
+{
+  "Personaje": [
+    {
+      "Nombre": "Leia Organa",
+      "Estatura": "1,56 m",
+      "Año de nacimiento": "1956"
+    },
+    {
+      "Nombre": "Han Solo",
+      "Estatura": "1.85 m",
+      "Año de nacimiento": "1942"
+    },
+    {
+      "Nombre": "Luke Skywalker",
+      "Estatura": "1.75 m",
+      "Año de nacimiento": "1951"
+    },
+    {
+      "Nombre": "Chewbacca",
+      "Estatura": "2.18 m",
+      "Año de nacimiento": "1944"
+    },
+    {
+      "Nombre": "R2-D2",
+      "Estatura": "1.12 m",
+      "Año de nacimiento": "1934"
+    },
+    {
+      "Nombre": "C-3PO",
+      "Estatura": "1.75 m",
+      "Año de nacimiento": "1946"
+    },
+    {
+      "Nombre": "Obi-Wan Kenobi",
+      "Estatura": "1.78 m",
+      "Año de nacimiento": "1914"
+    },
+    {
+      "Nombre": "Boba Fett",
+      "Estatura": "1.71",
+      "Año de nacimiento": "1960"
+    },
+    {
+      "Nombre": "Darth Vader",
+      "Estatura": "1.87",
+      "Año de nacimiento": "1931"
+    }
+  ]
+}
